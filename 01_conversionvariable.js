@@ -24,3 +24,9 @@ let stringnumber=33
 let stringvalue=String(stringnumber)
 console.log(stringvalue);
 console.log(typeof stringvalue);
+
+
+//operations
+let isvalue=3
+let negvalue=-isvalue
+console.log(negvalue);
