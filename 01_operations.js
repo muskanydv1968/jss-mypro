@@ -24,6 +24,6 @@ console.log(null>0);//these are not suitable
 console.log(null==0);
 console.log(null>=0);
 
-console.log("2"===2);
+console.log("2"===2); //strictly check and compare value
 
 
