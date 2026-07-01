@@ -1,0 +1,22 @@
+const name = "muskan";
+const repocount = 40;
+console.log(`my name is ${name} and my repo count is ${repocount}`);
+const gamename = new String('miku');
+console.log(gamename[1]);
+console.log(gamename.__proto__);
+console.log(gamename.length);
+console.log(gamename.toUpperCase());
+console.log(gamename.charAt(3));
+console.log(gamename.indexOf('i'));
+const newstring = gamename.substring(0,3);
+console.log(newstring);
+const otherstring = gamename.slice(-7,2);
+console.log(otherstring);
+const newone = "  shrutii    ";
+console.log(newone.trim());
+console.log(newone);
+const url = "https://muskan.com/muskan%49yadav";
+console.log(url.replace('%49','-'));
+console.log(url.includes('muskan'));
+console.log(gamename.split('-'));
+ 
